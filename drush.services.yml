@@ -1,0 +1,5 @@
+services:
+  entity_import.commands:
+    class: \Drupal\entity_import\Commands\EntityImportDrushCommands
+    tags:
+      - { name: drush.command }
